@@ -4,4 +4,4 @@ A simple experiment using Three.js. This project was a good experimentation of w
 
 ![Demo Image](./demo.png)
 
-### View the page [here](https://christianrhodes18.github.io/three-js-space-intro/)
+### View the page [here](https://three-js-galaxy-mu.vercel.app/)
