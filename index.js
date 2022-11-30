@@ -51,8 +51,8 @@ const spaceTexture = new THREE.TextureLoader().load('/assets/space_bg.jpg')
 scene.background = spaceTexture
 
 //mercury
-const mercuryTexture= new THREE.TextureLoader().load('/assets/planet_textures/mercury.jpeg')
-const mercuryNormal = new THREE.TextureLoader().load('assets/planet_textures/mercury_normal.jpeg')
+const mercuryTexture= new THREE.TextureLoader().load('/assets/mercury.jpeg')
+const mercuryNormal = new THREE.TextureLoader().load('assets/mercury_normal.jpeg')
 const mercury = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
   new THREE.MeshBasicMaterial({ 
@@ -63,8 +63,8 @@ const mercury = new THREE.Mesh(
 scene.add(mercury)
 
 //moon
-const moonTexture = new THREE.TextureLoader().load('/assets/planet_textures/moon.jpeg')
-const moonNormal = new THREE.TextureLoader().load('/assets/planet_textures/moon_normal.jpeg')
+const moonTexture = new THREE.TextureLoader().load('/assets/moon.jpeg')
+const moonNormal = new THREE.TextureLoader().load('/assets/moon_normal.jpeg')
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
   new THREE.MeshPhongMaterial( {
