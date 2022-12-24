@@ -47,12 +47,12 @@ function addStar() {
 Array(200).fill().forEach(addStar)
 
 //background
-const spaceTexture = new THREE.TextureLoader().load("/public/static/img/space_bg.jpg")
+const spaceTexture = new THREE.TextureLoader().load("/public/static/images/space_bg.jpeg")
 scene.background = spaceTexture
 
 //mercury
-const mercuryTexture= new THREE.TextureLoader().load("/public/static/img/mercury.jpeg")
-const mercuryNormal = new THREE.TextureLoader().load("/public/static/img/mercury_normal.jpeg")
+const mercuryTexture= new THREE.TextureLoader().load("/public/static/images/mercury.jpeg")
+const mercuryNormal = new THREE.TextureLoader().load("/public/static/images/mercury_normal.jpeg")
 const mercury = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
   new THREE.MeshBasicMaterial({ 
@@ -63,8 +63,8 @@ const mercury = new THREE.Mesh(
 scene.add(mercury)
 
 //moon
-const moonTexture = new THREE.TextureLoader().load("/public/static/img/moon.jpeg")
-const moonNormal = new THREE.TextureLoader().load("/public/static/img/moon_normal.jpeg")
+const moonTexture = new THREE.TextureLoader().load("/public/static/images/moon.jpeg")
+const moonNormal = new THREE.TextureLoader().load("/public/static/images/moon_normal.jpeg")
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
   new THREE.MeshPhongMaterial( {
